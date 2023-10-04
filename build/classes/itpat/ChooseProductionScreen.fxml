@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itpat.ChooseProductionScreenController">
+   <children>
+      <ImageView fx:id="SJC" fitHeight="102.0" fitWidth="497.0">
+         <image>
+            <Image url="@../images.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#880000" height="27.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="497.0" />
+      <ChoiceBox fx:id="productionDropdown" layoutX="212.0" layoutY="187.0" onAction="#productionChosen" prefWidth="150.0" />
+      <Button id="btnNext" fx:id="btnNext" layoutX="416.0" layoutY="243.0" mnemonicParsing="false" onAction="#nextClicked" text="Next" />
+      <ChoiceBox fx:id="dateDropdown" layoutX="212.0" layoutY="243.0" prefWidth="150.0" />
+      <Label layoutX="73.0" layoutY="192.0" text="Production" />
+      <Label layoutX="73.0" layoutY="248.0" text="Date" />
+      <Button id="btnHelp" fx:id="btnHelp" layoutX="29.0" layoutY="339.0" mnemonicParsing="false" onAction="#helpClicked" text="Help" />
+      <Label fx:id="helloMessage" layoutY="127.0" text="Hello Adam Green" />
+   </children>
+</AnchorPane>

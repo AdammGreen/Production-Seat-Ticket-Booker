@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="589.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="itpat.HelpScreenController">
+   <children>
+      <TextArea layoutX="1.0" layoutY="57.0" prefHeight="531.0" prefWidth="600.0" text="Login:&#10;&#10;-Enter the valid user name and password that was provided to you.&#10;-Make sure you’ve entered relevant information into all the required fields (make sure everything is filled in)&#10;-Once everything is filled in press “login” to proceed to the next page&#10;&#10;Production Date:&#10;&#10;-Make sure you’ve entered relevant information into all the required fields (make sure everything is filled in)&#10;-If the production you looking for isn't there then it has either already finished being showed or is still waiting to be added to system.&#10;-Once everything is filled in press “next” to proceed to the next page&#10;&#10;&#10;Specific Performance Screen:&#10;&#10;-A blue seat means the ticket is available and a grey seat means unavailable.&#10;-Make sure you’ve entered relevant information into all the required fields (make sure everything is filled in)&#10;-Select/click on the seats on the screen(GUI) that you want to book. You are limited to 8 seats &#10;-Click the checkbox to confirm ticket quantity&#10;-Once everything is filled in press “next” to proceed to the next page&#10;&#10;Ticket printing and accessing screen:&#10;&#10;-Click Print Button to print ticket, make sure you are connected to a printer&#10;-Save/copy image onto computer by right clicking on it. Then print it through another platform&#10;-If you cannot download the PDF you will need to download Adobe Acrobat.&#10;-You will not be allowed to finish the program until you’ve either downloaded the PDF or printer the ticket.&#10;-Once everything downloaded/printed then press “finnish” to end the program.&#10;&#10;Admin screen:&#10;&#10;-Enter the valid user name and password that was provided to you.&#10;-Make sure you’ve entered relevant information into all the required fields (make sure everything is filled in)&#10;-Once everything is filled in press “login” to proceed to the next page&#10;&#10;Admin Bookings screen:&#10;&#10;-A blue seat means the ticket is available and a grey seat means unavailable.&#10;-Check which student booked a ticket by hovering your mouse over the seat.&#10;-Refund, make available or make unavailable any seat by filling in the seat next to the title of the activity you want to execute. &#10;-Then press “finish” to end the program and submit any changes.&#10;&#10;&#10;" />
+      <Label layoutX="219.0" layoutY="10.0" prefHeight="47.0" prefWidth="164.0" text="Help Screen:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button id="btnBack" fx:id="btnBack" layoutX="527.0" layoutY="20.0" mnemonicParsing="false" onAction="#btnBackClicked" text="Back" />
+   </children>
+</AnchorPane>
